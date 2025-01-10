@@ -36,7 +36,7 @@ class DatabaseMigratorApp:
 
         self.selected_file = None
     
-    def update_status(self, message, text_color="white"):
+    def update_status(self, message, text_color="green"):
         self.status_label.configure(text=f"Status: {message}", text_color=text_color)
         self.root.update_idletasks()
 

@@ -1,0 +1,41 @@
+Metadata-Version: 2.2
+Name: migrator-tool
+Version: 1.0.1
+Summary: A tool to migrate SQLite (.csdb) data to MySQL with a user-friendly GUI.
+Home-page: https://github.com/ndayiz/migrator_tool
+Author: NISR IT TEAM
+Author-email: ndayizeye.bernard@statistics.gov.rw
+License: NISR
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: NISR License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: customtkinter
+Requires-Dist: mysql-connector-python
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# Migrator Tool
+
+A Python-based tool for migrating SQLite `.csdb` files to MySQL, featuring a user-friendly GUI.
+
+## Features
+- Easy migration from SQLite to MySQL
+- Handles table schemas, constraints, and data
+- Supports batch data migration for large tables
+
+## Installation
+Install via pip:
+
+```bash
+pip install migrator-tool

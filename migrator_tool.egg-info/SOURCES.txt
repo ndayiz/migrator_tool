@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+migrator_tool/__init__.py
+migrator_tool/migrator_tool.py
+migrator_tool.egg-info/PKG-INFO
+migrator_tool.egg-info/SOURCES.txt
+migrator_tool.egg-info/dependency_links.txt
+migrator_tool.egg-info/entry_points.txt
+migrator_tool.egg-info/requires.txt
+migrator_tool.egg-info/top_level.txt
+tests/__init__.py
+tests/test_migrator.py

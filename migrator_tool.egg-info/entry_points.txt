@@ -1,0 +1,2 @@
+[console_scripts]
+migrator-tool = migrator_tool.migrator_tool:main

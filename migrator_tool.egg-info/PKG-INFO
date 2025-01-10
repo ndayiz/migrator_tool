@@ -7,7 +7,7 @@ Author: NISR IT TEAM
 Author-email: ndayizeye.bernard@statistics.gov.rw
 License: NISR
 Classifier: Programming Language :: Python :: 3
-Classifier: License :: OSI Approved :: NISR License
+Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.7
 Description-Content-Type: text/markdown

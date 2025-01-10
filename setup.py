@@ -12,7 +12,7 @@ setup(
     license="NISR",
     classifiers=[
         "Programming Language :: Python :: 3",
-        "License :: OSI Approved :: NISR License",
+        "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     packages=find_packages(),

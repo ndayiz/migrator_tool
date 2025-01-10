@@ -39,3 +39,4 @@ Install via pip:
 
 ```bash
 pip install migrator-tool
+pip install -r requirements.txt

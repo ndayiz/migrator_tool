@@ -4,7 +4,6 @@ import mysql.connector
 import customtkinter as ctk
 from tkinter import filedialog, messagebox
 
-
 class DatabaseMigratorApp:
     def __init__(self, root):
         self.root = root
@@ -189,7 +188,10 @@ class DatabaseMigratorApp:
             messagebox.showerror("Error", f"Error during migration: {e}")
 
 
-if __name__ == "__main__":
+def main():
     root = ctk.CTk()
     app = DatabaseMigratorApp(root)
     root.mainloop()
+
+if __name__ == "__main__":
+    main()
